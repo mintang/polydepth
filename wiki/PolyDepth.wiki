@@ -2,11 +2,11 @@
 
 = Introduction =
 
-Real-time penetration depth computation library for polygon-soup models.
+Real-time penetration depth computation library for _polygon-soup_ models.
 
-= Details =
+= Functions =
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+For two intersected polygonal models, _PolyDepth_ can compute a minimum distance to separate them by translation:
+  * It can compute a single distance value to separate the intersected model
+  * It can also report a set of distance values for each intersected _region_
+  * It has different options to choose for initialization 
